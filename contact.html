@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="taniti.css">
+    <script defer src="./script.js"></script>
+</head>
+<body>
+    <header>
+        <table>
+            <tr>
+                <td>
+                    <img src="images/Flag_of_the_Pacific_Community.png" alt="Blue flag with a circle of stars surrounding a teal sail.." height="90px">
+                </td>
+                <td>
+                    <h1>Discover Taniti</h1>
+                    <p class="subHeader">Unwind, Explore, & Savor the Delicacies </p>
+                </td>
+            </tr>
+        </table>
+    </header>
+
+    <nav class="navBar">
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./food.html">Food</a></li>
+            <li><a href="./transportation.html">Transportation</a></li>
+            <li><a href="./lodging.html">Lodging & Hotels</a></li>
+            <li><a href="./entertainment.html">Entertainment</a></li>
+            <li><a href="./faq.html">FAQ</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h2>Contact</h2>
+        <table class="interiorBodyTable">
+            <tr>
+                <td>
+                    <form action="" method="post" id="contactForm">
+                        <div>
+                            <label for="firstName">First Name: </label>
+                            <input type="text" name="firstName" id="firstName" required>
+                        </div>
+                        <br>
+                        <div>
+                            <label for="lastName">Last Name: </label>
+                            <input type="text" name="lastName" id="lastName" required>
+                        </div>
+                        <br>
+                        <div>
+                            <label for="mail">Email Address: </label>
+                            <input type="email" name="mail" id="mail" required>
+                        </div>
+                        <br>
+                        <div>
+                            <label for="confirmMail">Confirm Email: </label>
+                            <input type="email" name="confirmMail" id="confirmMail" required>
+                        </div>
+                        <br>
+                        <div><label for="question">Question: </label></div>
+                        <div><textarea name="Question" id="question" cols="50" rows="10" required></textarea></div>
+                        <br>
+                        <div>
+                            <input type="reset" name="resetButton" value="Clear"> 
+                            <input type="submit" name="submitButton" value="Submit">
+                        </div>
+                        <br>
+                        <div id="formError"></div>
+                    </form>
+                </td>
+                <td>
+                    <aside>
+                        <h3>Questions?</h3>
+                        <p>
+                            
+                        </p>
+                        <ol>
+                            <li>Enter your name and email address so we can contact you.</li>
+                            <li>Fill out the question box and let us know what you think, or what you'd like to learn about Taniti.</li>
+                            <li>Click 'Submit' and we'll get back to you soon!</li>
+                        </ol>
+                    </aside>
+                </td>
+            </tr>
+        </table>
+    </section>
+</body>
+<div id="footerDiv">
+    <footer>
+        <table class="footerTable">
+            <tr>
+                <td>
+                    Created by Charles Jesse Wicker. 2025
+                </td>
+            </tr>
+        </table>
+    </footer>
+</div>
+</html>
